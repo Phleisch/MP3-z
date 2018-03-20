@@ -1,2 +1,5 @@
 pafy==0.5.4
 youtube-dl
+urllib
+urllib2
+bs4
