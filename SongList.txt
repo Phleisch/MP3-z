@@ -1,1 +1,2 @@
-big sean moves#big sean moves
+#On this and the following lines, place songs by format Artist - Song Name#
+#Using a '#' in the line will make the program skip the line in execution
