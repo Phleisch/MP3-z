@@ -1,3 +1,4 @@
+import os
 from audio_download import download_audio
 from retrieve_urls import get_urls
 
@@ -10,3 +11,4 @@ download_audio(url_list)
 print('\nDone!')
 song_input.close()
 url_list.close()
+os.remove('SongURLs.txt')
