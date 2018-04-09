@@ -35,7 +35,7 @@ def get_url(song):
 	regex = '[^A-Za-z0-9\'\. ]'
 	search_const = 'https://www.youtube.com/results?search_query='
 	if '#' in song:
-		continue
+		return
 	song = song.strip('\n')
 	unchanged = song
 	song = re.sub(regex, '', song)
